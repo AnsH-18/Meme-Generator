@@ -1,0 +1,90 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body{
+    background-color: #bae8e8;
+}
+
+.nav-img{
+    height: 80px;
+    padding: 5px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #272343;
+    color: #ffff;
+}
+header{
+    border-bottom: 3px solid rgb(118, 118, 118) ;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: #e3f6f5;
+    padding: 30px;
+    position: absolute;
+    left: 20%;
+    top: 100px;
+}
+
+.meme-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-cont > input{
+    height: 40px;
+    margin: 10px;
+    width: 300px;
+    border: none;
+    padding-left: 20px;
+}
+
+
+button{
+    height: 40px;
+    background-color: #272343;
+    color: white;
+}
+
+.meme-img{
+    margin-top: 10px;
+    width: 80%;
+    height: 270px;
+    margin-inline: 50px;
+}
+
+.img-container{
+    position: relative;
+}
+
+.img-container > h1{
+    position: absolute;
+    color: white;
+    text-shadow:4px 4px 0 #000,
+    -4px -4px 0 #000,
+    4px -4px 0 #000,
+    -4px 4px 0 #000,
+    0px 4px 0 #000,
+    4px 0px 0 #000,
+    0px -4px 0 #000,
+    -4px 0px 0 #000;
+}
+
+.top-inp{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+
+}
+
+.bottom-inp{
+    position: absolute;
+    left: 100px;
+    bottom: 20px
+}
